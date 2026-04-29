@@ -1,0 +1,4 @@
+:80 {
+    reverse_proxy /hocuspocus* hocuspocus:1234
+    reverse_proxy web:8080
+}
